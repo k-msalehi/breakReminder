@@ -18,4 +18,3 @@ python break_reminder.py
 ## Acknowledgments
 
 - Special thanks to OpenAI ChatGPT for assisting with the development of this script and providing code examples.
-
