@@ -14,6 +14,7 @@ Run the script from your terminal or command prompt:
 ```sh
 python break_reminder.py
 ```
+**The .exe file is created using PyInstaller and has been tested on Windows 11, you can run it without needing to install Python or any dependencies.**
 
 ## Acknowledgments
 
