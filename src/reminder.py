@@ -62,6 +62,7 @@ def main():
     root.withdraw()
 
     app = ReminderApp(root, interval, play_music)
+    print("Github repo: https://github.com/k-msalehi/breakReminder")
     print("OK, Reminder started!")
     root.mainloop()
 
