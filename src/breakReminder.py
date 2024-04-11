@@ -4,6 +4,7 @@ import threading
 import time
 import os
 import pygame
+from datetime import datetime
 
 class ReminderApp:
     def __init__(self, root, interval, play_music):
@@ -33,6 +34,7 @@ class ReminderApp:
                 self.next_reminder_time = time.time() + self.interval
 
     def show_reminder(self):
+        print("breakReminder showed up at: " + datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
         self.reminder_active = True
         self.reminder_window = Toplevel(self.root)
         self.reminder_window.title("breakReminder")
@@ -53,9 +55,12 @@ class ReminderApp:
             pygame.mixer.music.stop()
         self.reminder_window.destroy()
         self.reminder_active = False  # Allow the timer to continue
+        print("breakReminder window closed at: " + datetime.now().strftime('%Y-%m-%d %H:%M:%S'))
+        print("")
+
 
 def main():
-    interval = int(input("Enter the time in minutes for the reminder (default 35): ") or 35) * 60
+    interval = int(input("Enter the time in minutes for the reminder (default 35): ") or 35) * 1
     play_music = input("Do you want to play music (y/n)? ").lower().startswith('y')
 
     root = tk.Tk()
@@ -63,7 +68,7 @@ def main():
 
     app = ReminderApp(root, interval, play_music)
     print("Github repo: https://github.com/k-msalehi/breakReminder")
-    print("OK, Reminder started!")
+    print("OK, breakReminder started at: " + datetime.now().strftime('%Y-%m-%d %H:%M:%S') )
     root.mainloop()
 
     pygame.mixer.quit()
