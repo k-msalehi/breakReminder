@@ -60,7 +60,7 @@ class ReminderApp:
 
 
 def main():
-    interval = int(input("Enter the time in minutes for the reminder (default 35): ") or 35) * 1
+    interval = int(input("Enter the time in minutes for the reminder (default 35): ") or 35) * 60
     play_music = input("Do you want to play music (y/n)? ").lower().startswith('y')
 
     root = tk.Tk()
