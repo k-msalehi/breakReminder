@@ -10,7 +10,7 @@ A simple and effective reminder tool built with Python that prompts users to tak
 
 ### Usage
 - For window, just download the `.zip` file, extract it, and run `.exe` file.
-- For any enviroment that has python installed, run the script from your terminal:
+- For any environment that has python installed, run the script from your terminal:
 ```sh
 python break_reminder.py
 ```
