@@ -9,12 +9,14 @@ A simple and effective reminder tool built with Python that prompts users to tak
 - Tkinter for the GUI (should be included with Python)
 
 ### Usage
-- (optional) Place a music file named music.mp3 in the same directory as the script or executable file if you want music to play during your reminders.  
-- Run the script from your terminal or run executable file:
+- For window, just download the `.zip` file, extract it, and run `.exe` file.
+- For any enviroment that has python installed, run the script from your terminal:
 ```sh
 python break_reminder.py
 ```
-**The .exe file is created using PyInstaller and has been tested on Windows 10 and 11, you can run it without needing to install Python or any dependencies.**
+- (optional) Place a music file named `music.mp3` in the same directory as the script or executable file if you want music to play during your reminders.
+
+**The `.exe` file is created using PyInstaller and has been tested on Windows 10 and 11, you can run it without needing to install Python or any dependencies.**
 
 ## Acknowledgments
 
