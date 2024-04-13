@@ -9,8 +9,8 @@ A simple and effective reminder tool built with Python that prompts users to tak
 - Tkinter for the GUI (should be included with Python)
 
 ### Usage
-- For window, just download the `.zip` file, extract it, and run `.exe` file.
-- For any environment that has python installed, run the script from your terminal:
+- In window, just download the `.zip` file, extract it, and run `.exe` file.
+- In any environment where Python is installed, run the script from your terminal:
 ```sh
 python break_reminder.py
 ```
