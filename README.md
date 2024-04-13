@@ -7,14 +7,14 @@ A simple and effective reminder tool built with Python that prompts users to tak
 - Python 3.6 or later
 - Pygame for playing music
 - Tkinter for the GUI (should be included with Python)
-- (optional) Place a music file named music.mp3 in the same directory as the script if you want music to play during your reminders.
 
 ### Usage
-Run the script from your terminal or command prompt:
+- (optional) Place a music file named music.mp3 in the same directory as the script or executable file if you want music to play during your reminders.  
+- Run the script from your terminal or run executable file:
 ```sh
 python break_reminder.py
 ```
-**The .exe file is created using PyInstaller and has been tested on Windows 11, you can run it without needing to install Python or any dependencies.**
+**The .exe file is created using PyInstaller and has been tested on Windows 10 and 11, you can run it without needing to install Python or any dependencies.**
 
 ## Acknowledgments
 
