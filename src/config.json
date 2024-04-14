@@ -1,0 +1,32 @@
+{
+    "reminderInMinutes": "35",
+    "musicPath": "music.mp3",
+    "playMusic": "no",
+    "reminderMessages": [
+        "Time for a break!",
+        "Stretch those legs!",
+        "Stand up and move around.",
+        "Remember to hydrate!",
+        "Rest your eyes for a moment.",
+        "Do a quick meditation.",
+        "Take a moment to relax.",
+        "Shake it off like Taylor Swift!",
+        "Take a moment to stretch.",
+        "High five yourself, then take a break.",
+        "Take a break and enjoy the moment.",
+        "Dance like nobody's watching!",
+        "Smile and take a break!",
+        "Take a moment to appreciate the little things.",
+        "Do a victory dance for completing your tasks! (or for just being awesome)",
+        "Take a break and enjoy the moment.",
+        "Pretend you're in a talent show and showcase your most unusual talent.",
+        "Take a break and give yourself a round of applause.",
+        "Pretend you're a ninja and sneak around your room.",
+        "Take a break and do your best impression of a celebrity.",
+        "Channel your inner child and skip around the room.",
+        "Imagine you're a cat stretching after a nap.",
+        "Take a break and think of the weirdest thing you can do right now.",
+        "Time to do the chicken dance!",
+        "Count how many seconds you can stare at a wall without laughing."
+    ]
+}
