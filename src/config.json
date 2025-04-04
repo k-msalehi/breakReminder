@@ -1,7 +1,5 @@
 {
     "reminderInMinutes": "35",
-    "musicPath": "music.mp3",
-    "playMusic": "no",
     "reminderMessages": [
         "Time for a break!",
         "Stretch those legs!",
